@@ -7,10 +7,26 @@
 
 import SwiftUI
 
+
 struct ContentView: View {
+    @State var redColor: Double = 20
+    @State  var greenColor: Double = 30
+    @State var blueColor: Double = 40
+    
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack(spacing: 9.0){
+            ColorView(redColor: redColor,
+                      greenColor: greenColor,
+                      blueColor: blueColor)
+            
+            SliderAndText(sliderValue: $redColor, sliderColor: .red)
+            SliderAndText(sliderValue: $greenColor, sliderColor: .green)
+            SliderAndText(sliderValue: $blueColor, sliderColor: .blue)
+            
+            Spacer()
+        }
+        
     }
 }
 

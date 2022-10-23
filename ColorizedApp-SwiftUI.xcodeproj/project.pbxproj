@@ -11,6 +11,8 @@
 		FA740E5D2903F4FC000988DF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA740E5C2903F4FC000988DF /* ContentView.swift */; };
 		FA740E5F2903F500000988DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA740E5E2903F500000988DF /* Assets.xcassets */; };
 		FA740E622903F500000988DF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA740E612903F500000988DF /* Preview Assets.xcassets */; };
+		FA740E7129041985000988DF /* SliderAndText.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA740E7029041985000988DF /* SliderAndText.swift */; };
+		FADC50A62905524D00204BD4 /* ColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADC50A52905524D00204BD4 /* ColorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		FA740E5C2903F4FC000988DF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FA740E5E2903F500000988DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA740E612903F500000988DF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FA740E7029041985000988DF /* SliderAndText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderAndText.swift; sourceTree = "<group>"; };
+		FADC50A52905524D00204BD4 /* ColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				FA740E5A2903F4FC000988DF /* ColorizedApp_SwiftUIApp.swift */,
 				FA740E5C2903F4FC000988DF /* ContentView.swift */,
+				FADC50A52905524D00204BD4 /* ColorView.swift */,
+				FA740E7029041985000988DF /* SliderAndText.swift */,
 				FA740E5E2903F500000988DF /* Assets.xcassets */,
 				FA740E602903F500000988DF /* Preview Content */,
 			);
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FADC50A62905524D00204BD4 /* ColorView.swift in Sources */,
+				FA740E7129041985000988DF /* SliderAndText.swift in Sources */,
 				FA740E5D2903F4FC000988DF /* ContentView.swift in Sources */,
 				FA740E5B2903F4FC000988DF /* ColorizedApp_SwiftUIApp.swift in Sources */,
 			);
@@ -266,6 +274,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ColorizedApp-SwiftUI/Preview Content\"";
@@ -284,9 +293,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "LazarevPavel.ColorizedApp-SwiftUI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -295,6 +305,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ColorizedApp-SwiftUI/Preview Content\"";
@@ -313,9 +324,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "LazarevPavel.ColorizedApp-SwiftUI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
