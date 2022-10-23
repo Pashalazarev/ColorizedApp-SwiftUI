@@ -13,6 +13,7 @@
 		FA740E622903F500000988DF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA740E612903F500000988DF /* Preview Assets.xcassets */; };
 		FA740E7129041985000988DF /* SliderAndText.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA740E7029041985000988DF /* SliderAndText.swift */; };
 		FADC50A62905524D00204BD4 /* ColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADC50A52905524D00204BD4 /* ColorView.swift */; };
+		FAE241D32905E3F4001C3EC1 /* textFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE241D22905E3F4001C3EC1 /* textFieldView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		FA740E612903F500000988DF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FA740E7029041985000988DF /* SliderAndText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderAndText.swift; sourceTree = "<group>"; };
 		FADC50A52905524D00204BD4 /* ColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorView.swift; sourceTree = "<group>"; };
+		FAE241D22905E3F4001C3EC1 /* textFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = textFieldView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			children = (
 				FA740E5A2903F4FC000988DF /* ColorizedApp_SwiftUIApp.swift */,
 				FA740E5C2903F4FC000988DF /* ContentView.swift */,
+				FAE241D22905E3F4001C3EC1 /* textFieldView.swift */,
 				FADC50A52905524D00204BD4 /* ColorView.swift */,
 				FA740E7029041985000988DF /* SliderAndText.swift */,
 				FA740E5E2903F500000988DF /* Assets.xcassets */,
@@ -145,6 +148,7 @@
 			files = (
 				FADC50A62905524D00204BD4 /* ColorView.swift in Sources */,
 				FA740E7129041985000988DF /* SliderAndText.swift in Sources */,
+				FAE241D32905E3F4001C3EC1 /* textFieldView.swift in Sources */,
 				FA740E5D2903F4FC000988DF /* ContentView.swift in Sources */,
 				FA740E5B2903F4FC000988DF /* ColorizedApp_SwiftUIApp.swift in Sources */,
 			);
