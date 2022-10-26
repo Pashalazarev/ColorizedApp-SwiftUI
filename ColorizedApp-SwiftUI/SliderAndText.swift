@@ -11,7 +11,7 @@ import SwiftUI
 struct SliderAndText: View {
     @Binding var sliderValue: Double
     
-    @State var textFieldValue = ""
+    @State private var textFieldValue = ""
     
     let sliderColor: Color
     
@@ -24,19 +24,21 @@ struct SliderAndText: View {
                 .textFieldStyle(.roundedBorder)
             
             Slider(value: $sliderValue, in: 0...255, step: 1)
+                .tint(sliderColor)
         
-            TextField("\(textFieldValue)",
-                      text: $textFieldValue)
-                .frame(width: 50.0)
+            TextField("", text: $textFieldValue)
+                .frame(width: 50, alignment: .trailing)
+                .multilineTextAlignment(.trailing)
                 .textFieldStyle(.roundedBorder)
+            
         }
     }
 }
 
-//struct SliderAndText_Previews: PreviewProvider {
-//    static var previews: some View {
-//        VStack{
-//            SliderAndText(sliderValue: $sliderValue, sliderColor: .red)
-//    }
-//}
-//}
+struct SliderAndText_Previews: PreviewProvider {
+    static var previews: some View {
+        VStack{
+            SliderAndText(sliderValue: .constant(40), sliderColor: .red)
+    }
+}
+}

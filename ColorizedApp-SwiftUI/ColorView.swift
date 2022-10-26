@@ -17,7 +17,7 @@ struct ColorView: View {
         Color(red: redColor/255,
               green: greenColor/255,
               blue: blueColor/255)
-            .frame(width: 350, height: 150)
+            .frame( height: 150)
             .cornerRadius(12)
     }
 }
